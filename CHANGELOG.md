@@ -1,6 +1,6 @@
 # 更新日志：
 
-## v0.1.4（2019-06）
+## v0.1.4（2019-11）
 
 ### Fix Bug & Add Feature
 #### 修复bug
@@ -12,17 +12,18 @@
 #### 新增功能
 1. 项目改成 go mod 部署
 2. 代码优化
+3. linux 下增加启动脚本 run.sh
 
-### Upgrade
+### 升级（Upgrade）
 1. 下载新版本到部署该项目的根目录
-2. 覆盖解压
+2. 覆盖解压 (tar -zxvf mm-wiki-v0.1.4-mac-amd64.tar.gz)
 3. 执行升级命令
 ```
-./mm-wiki --conf conf/mm-wiki --upgrade
+./mm-wiki --conf conf/mm-wiki.conf --upgrade
 ```
 3. 重新启动
 ```
-./mm-wiki --conf conf/mm-wiki
+./mm-wiki --conf conf/mm-wiki.conf
 ```
 
 ## v0.1.3（2019-05）
@@ -53,11 +54,11 @@
 2. 覆盖解压
 3. 执行升级命令
 ```
-./mm-wiki --conf conf/mm-wiki --upgrade
+./mm-wiki --conf conf/mm-wiki.conf --upgrade
 ```
 3. 重新启动
 ```
-./mm-wiki --conf conf/mm-wiki
+./mm-wiki --conf conf/mm-wiki.conf
 ```
 
 ## v0.1.2 （2018-11）
@@ -78,11 +79,11 @@
 2. 覆盖解压
 3. 执行升级命令
 ```
-./mm-wiki --conf conf/mm-wiki --upgrade
+./mm-wiki --conf conf/mm-wiki.conf --upgrade
 ```
 3. 重新启动
 ```
-./mm-wiki --conf conf/mm-wiki
+./mm-wiki --conf conf/mm-wiki.conf
 ```
 
 
