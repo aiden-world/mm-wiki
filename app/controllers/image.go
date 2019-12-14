@@ -3,9 +3,9 @@ package controllers
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/phachon/mm-wiki/app"
-	"github.com/phachon/mm-wiki/app/models"
-	"github.com/phachon/mm-wiki/app/utils"
+	"mm-wiki/app"
+	"mm-wiki/app/models"
+	"mm-wiki/app/utils"
 	"os"
 	"path"
 )

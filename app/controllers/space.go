@@ -4,7 +4,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/phachon/mm-wiki/app/models"
+	"mm-wiki/app/models"
 )
 
 type SpaceController struct {

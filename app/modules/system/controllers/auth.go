@@ -3,8 +3,8 @@ package controllers
 import (
 	"strings"
 
-	"github.com/phachon/mm-wiki/app/models"
-	"github.com/phachon/mm-wiki/app/utils"
+	"mm-wiki/app/models"
+	"mm-wiki/app/utils"
 
 	"github.com/astaxie/beego/validation"
 	valid "github.com/go-ozzo/ozzo-validation"

@@ -3,7 +3,7 @@ package controllers
 import (
 	"encoding/json"
 	"github.com/astaxie/beego"
-	"github.com/phachon/mm-wiki/install/storage"
+	"mm-wiki/install/storage"
 	"strings"
 )
 

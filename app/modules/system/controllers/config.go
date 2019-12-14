@@ -3,7 +3,7 @@ package controllers
 import (
 	"strings"
 
-	"github.com/phachon/mm-wiki/app/models"
+	"mm-wiki/app/models"
 )
 
 type ConfigController struct {

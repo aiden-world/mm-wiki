@@ -15,3 +15,7 @@ data/
 install/install
 install/install.exe
 install.lock
+/.idea/misc.xml
+/.idea/mm-wiki1.iml
+/.idea/modules.xml
+/.idea/vcs.xml

@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"github.com/phachon/mm-wiki/app/models"
+	"mm-wiki/app/models"
 	"strings"
 	"time"
 )

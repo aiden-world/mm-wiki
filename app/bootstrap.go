@@ -6,11 +6,11 @@ import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"
 	"github.com/fatih/color"
-	"github.com/phachon/mm-wiki/app/models"
-	"github.com/phachon/mm-wiki/app/utils"
-	"github.com/phachon/mm-wiki/global"
 	"github.com/snail007/go-activerecord/mysql"
 	"log"
+	"mm-wiki/app/models"
+	"mm-wiki/app/utils"
+	"mm-wiki/global"
 	"os"
 	"path"
 	"path/filepath"
@@ -18,7 +18,6 @@ import (
 )
 
 var (
-
 	defaultConf = "conf/mm-wiki.conf"
 
 	confPath = flag.String("conf", "", "please set mm-wiki conf path")
@@ -78,7 +77,7 @@ func poster() {
 ` +
 		"Author: phachon\r\n" +
 		"Version: " + Version + "\r\n" +
-		"Link: https://github.com/phachon/mm-wiki"
+		"Link: https://mm-wiki"
 	fg.Println(logo)
 }
 

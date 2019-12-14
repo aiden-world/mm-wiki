@@ -2,12 +2,12 @@ package controllers
 
 import (
 	"github.com/astaxie/beego/validation"
-	"github.com/phachon/mm-wiki/app/utils"
-	"github.com/phachon/mm-wiki/global"
-	"github.com/phachon/mm-wiki/install/storage"
 	"github.com/shirou/gopsutil/cpu"
 	"github.com/shirou/gopsutil/mem"
 	"io/ioutil"
+	"mm-wiki/app/utils"
+	"mm-wiki/global"
+	"mm-wiki/install/storage"
 	"path/filepath"
 	"runtime"
 	"strconv"
